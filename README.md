@@ -2,7 +2,7 @@ ee6-webapp
 ==========
 Tested on JBoss AS 7.0.1.Final Web profile
 
-JPA 2.0, JSF 2.0, JSFUnit, CDI, AS7 example
+JPA 2.0, JSF 2.0, JSFUnit, CDI, Arquillian, AS7 example
 
 !!! Ensure that JBoss is up !!!
 
