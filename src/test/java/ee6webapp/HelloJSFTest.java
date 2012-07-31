@@ -55,7 +55,7 @@ public class HelloJSFTest
       WebArchive war =
          ShrinkWrap.create(WebArchive.class, "test.war")
             .setWebXML(new File("src/main/webapp/WEB-INF/web.xml"))
-            .addPackage(Package.getPackage("org.jboss.jsfunit.example.hellojsf")) // my test package
+            .addPackage(Package.getPackage("ee6webapp")) // my test package
             .addAsWebResource(new File("src/main/webapp", "index.xhtml"))
             .addAsWebInfResource(new File("src/main/webapp/WEB-INF/faces-config.xml"), "faces-config.xml");
 //      System.out.println(war.toString(true)); // for debugging
